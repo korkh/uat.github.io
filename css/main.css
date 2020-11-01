@@ -76,10 +76,8 @@
   font-weight: bold;
   position: relative;
   color: #fff;
-  transition: color .5s ease;
-  cursor: pointer;
   background-color: rgb(3, 61, 71);
-  opacity: .92;
+
 }
 
 .section-items:nth-child(1)::before {
@@ -107,7 +105,6 @@
   right: 0;
   bottom: 0;
   background-color: rgb(3, 61, 71);
-  opacity: .95;
   min-height: 30vh;
 
   }
@@ -130,7 +127,6 @@
   font-weight: bold;
   position: relative;
   color: #fff;
-  transition: color .5s ease;
   background-color: rgb(3, 61, 71);
 }
 
@@ -140,7 +136,7 @@
 
 input[type=text], input[type=password] {
   width: 100%;
-  margin: 5px 5px;
+  margin-bottom: 5px;
   padding: 5px 5px;
   display: inline-block;
   border: 1px solid rgb(0, 0, 0);
@@ -177,10 +173,7 @@ input[type=text], input[type=password] {
   font-weight: bold;
   position: relative;
   color: #fff;
-  transition: color .5s ease;
-  cursor: pointer;
-  background-color: rgb(5,47,55);
-  opacity: .9;
+  background-color: rgb(3, 61, 71);
 }
 
 .section-bottom a{
@@ -189,9 +182,10 @@ input[type=text], input[type=password] {
 /*-----CONTAINERS and LANDING------*/
 .container {
   max-width: 1200px;
-  min-width: 200px;
+  min-width: 320px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 10px;
+  justify-items: left;
 }
 
 
