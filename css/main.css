@@ -38,15 +38,16 @@
 
 .header-content {
   z-index: 1;
-  color: #fff;
-  text-shadow: 1px 2px #021b20;
   text-align: center;
   padding: 10px;
   font-size: 16px;
   font-family: 'intro-grid', sans-serif;
   font-weight: normal;
   }
-
+.header-content h1 {
+  color: #fff;
+  text-shadow: 1px 2px 3px rgb(0,0,0);
+}
 .header-buttons {
   list-style-type: none;
   background-color: rgb(3, 61, 71);
