@@ -29,16 +29,16 @@
   <section class="section grid">
 
     <div class="section-items-form container grid">
-      <label for="User name">Username : </label>
-      <input type="text" placeholder="Enter Username" name="uname" required aria-label="user name">
-      <label for="Password">Password : </label>
-      <input type="password" placeholder="Enter Password" name="psw" required aria-label="user password">
+      <label for="uname">Username : </label>
+      <input id="uname" type="text" placeholder="Enter Username" name="uname" alt="uname" required aria-label="uname">
+      <label for="password">Password : </label>
+      <input id="password" type="password" placeholder="Enter Password" name="password" alt="password" required aria-label="password">
       <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember" aria-label="remember"> Remember me
+      <label for="remember">
+        <input id="remember" type="checkbox" checked="checked" name="remember" alt="remember" aria-label="remember"> Remember me
       </label>
       <div class="login">
-        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="button" class="cancelbtn" title="cancel-button">Cancel</button>
         <span>Forgot <a href="#" style="color: #0aedfa">password?</a></span>
       </div>
     </div>
