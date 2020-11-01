@@ -33,7 +33,7 @@
   right: 0;
   bottom: 0;
   background-color: rgb(3, 61, 71);
-  opacity: .8;
+  opacity: .5;
 }
 
 .header-content {
@@ -45,8 +45,8 @@
   font-weight: normal;
   }
 .header-content h1 {
-  color: #fff;
-  text-shadow: 1px 2px 3px rgb(0,0,0);
+  color: rgb(6,42,52);
+  text-shadow: 1px 2px 3px rgb(255,255,255);
 }
 .header-buttons {
   list-style-type: none;
@@ -201,6 +201,11 @@ input[type=text], input[type=password] {
   text-align: center;
   align-items: center;
   margin-bottom: 15px;
+}
+
+.header-content h2 {
+  color: rgb(6,42,52);
+  text-shadow: 1px 2px 3px rgb(255,255,255);
 }
 
 .fa {
